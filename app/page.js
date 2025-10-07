@@ -3,7 +3,7 @@ import Navbar from "@/components/Navbar";
 import ServicesSection from "@/components/ServiceSection";
 import VisionMissionMandate from "@/components/VisionMissionMandate";
 import Contact from "@/components/contact";
-import Footer from "@/components/footer";
+import Footer from "@/components/Footer";
 
 
 export default function Home() {
