@@ -46,13 +46,13 @@ export default function Navbar() {
       className={`fixed top-0 left-0 w-full transition-all duration-300 z-50 
       bg-white shadow-[0_4px_15px_rgba(0,0,0,0.15)]`}
     >
-      <div className="container mx-auto p-0.5">
+      <div className="container mx-auto p-5">
         <div className="max-w-5xl mx-auto px-4">
           <div className="flex justify-between items-center">
             {/* Logo and Brand Name Combined */}
             <div className="flex items-center space-x-2">
               <div
-                className={`w-10 h-10 ${isMobileLogoRotated ? "rotate-360" : ""} 
+                className={`w-20 h-20 items-center ${isMobileLogoRotated ? "rotate-360" : ""} 
                 transition-all duration-500 cursor-pointer`}
                 onClick={handleMobileLogoClick}
               >
@@ -105,7 +105,7 @@ export default function Navbar() {
 
             {/* Mobile Menu Button */}
             <button
-              className="md:hidden text-white"
+              className="md:hidden text-[#1f888d]"
               onClick={() => setIsOpen(!isOpen)}
             >
               {isOpen ? <FiX size={30} /> : <FiMenu size={30} />}

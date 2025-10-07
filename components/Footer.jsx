@@ -24,7 +24,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="relative bg-white text-[#1f888d] text-center py-6 mt-12 w-full">
+    <footer className="relative bg-white border border-[#1f888d] text-gray-200 text-center py-6 mt-12 w-full">
       <div className="text-[#1f888d] text-xl">©2025 Asubiojo Oreoluwa | All Rights Reserved</div>
       <div className="flex justify-center space-x-3 mt-4">
         
