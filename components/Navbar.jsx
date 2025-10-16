@@ -35,10 +35,10 @@ export default function Navbar() {
   // Navigation links configuration
   const navLinks = [
     { name: "Home", id: "home", href: "/" },
+    { name: "Services", id: "servicesSection", href: "/" },
     { name: "About", id: "about", href: "/" },
-    { name: "Services", id: "services", href: "/" },
-    { name: "Contact", id: "contact", href: "/contactus" },
-    { name: "Sectors", id: "sectors", href: "/" },
+    { name: "Contact", id: "contact", href: "/" },
+    
   ];
 
   return (
@@ -46,11 +46,11 @@ export default function Navbar() {
       className={`fixed top-0 left-0 w-full transition-all duration-300 z-50 
       bg-white shadow-[0_4px_15px_rgba(0,0,0,0.15)]`}
     >
-      <div className="container mx-auto p-5">
+      <div className="container mx-auto p-10">
         <div className="max-w-5xl mx-auto px-4">
           <div className="flex justify-between items-center">
             {/* Logo and Brand Name Combined */}
-            <div className="flex items-center space-x-2">
+            <div className="flex items-center space-x-15">
               <div
                 className={`w-20 h-20 items-center ${isMobileLogoRotated ? "rotate-360" : ""} 
                 transition-all duration-500 cursor-pointer`}
@@ -70,12 +70,12 @@ export default function Navbar() {
             </div>
 
             {/* Desktop Navigation */}
-            <div className="hidden md:flex space-x-6 text-[#1f888d]">
+            <div className="hidden md:flex space-x-15 text-md text-[#1f888d]">
               {navLinks.map((link) =>
-                link.href === "/contactus" ? (
+                link.href === "/" ? (
                   <Link
                     key={link.name}
-                    href="/contactus"
+                    href="/contact"
                     className="cursor-pointer text-[#1f888d] hover:text-blue-300"
                   >
                     {link.name}
@@ -95,7 +95,7 @@ export default function Navbar() {
                   <Link
                     key={link.name}
                     href={`${link.href}#${link.id}`}
-                    className="cursor-pointer text-[#1f888d]hover:text-blue-300"
+                    className="cursor-pointer text-[#1f888d]"
                   >
                     {link.name}
                   </Link>
@@ -117,7 +117,7 @@ export default function Navbar() {
         {isOpen && (
           <div className="md:hidden text-[#2dd9e1] shadow-md transition-all duration-300 bg-blue-900">
             {navLinks.map((link) =>
-              link.href === "/contactus" ? (
+              link.href === "/contact" ? (
                 <Link
                   key={link.name}
                   href="/contactus"

@@ -11,7 +11,7 @@ export default function Contact() {
   });
 
   // WhatsApp number (include country code, no + sign or spaces)
-  const whatsappNumber = "2348095245525"; // Example: +234 809 524 5525
+  const whatsappNumber = "+905391043822"; // Example: +234 809 524 5525
 
   const handleChange = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value });

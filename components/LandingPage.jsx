@@ -12,7 +12,7 @@ const slides = [
     text: (
       <>
         <span className="block text-3xl sm:text-2xl md:text-4xl font-bold font-[Inter]">
-          INFRAGENIX NIGERIAN LIMITED
+          INFRAGENIX NIGERIA LIMITED
         </span>
         <span className="block italic text-base sm:text-2xl md:text-3xl text-[#2dd9e1] font-[Playfair_Display] mt-2">
           Agriculture and Agro-Allied Services
