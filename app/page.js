@@ -4,7 +4,7 @@ import ServicesSection from "@/components/ServiceSection";
 import VisionMissionMandate from "@/components/VisionMissionMandate";
 import Contact from "@/components/contact";
 import Footer from "@/components/Footer";
-import Listofservices from "@/components/listofsevices";
+import Listofservices from "@/components/Listofservices";
 
 
 export default function Home() {
