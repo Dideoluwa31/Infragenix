@@ -13,13 +13,13 @@ import {
 } from "react-icons/fa";
 import { MdOutlineBusinessCenter } from "react-icons/md";
 
+
 const services = [
   { name: "Agriculture", icon: <FaTractor className="text-4xl text-black" /> },
   { name: "Consultancy", icon: <MdOutlineBusinessCenter className="text-4xl text-black" /> },
   { name: "Human Capital", icon: <FaUsers className="text-4xl text-black" /> },
   { name: "Hospitality", icon: <FaHotel className="text-4xl text-black" /> },
   { name: "Construction", icon: <FaTools className="text-4xl text-black" /> },
-  { name: "Logistics", icon: <FaTruck className="text-4xl text-black" /> },
   { name: "ICT Solutions", icon: <FaLaptopCode className="text-4xl text-black" /> },
   { name: "Real Estate", icon: <FaBuilding className="text-4xl text-black" /> },
   { name: "Training", icon: <FaChalkboardTeacher className="text-4xl text-black" /> },

@@ -37,10 +37,10 @@ ${form.message}`;
   };
 
   return (
-    <div className="bg-white text-gray-800">
+    <section id="contact" className="bg-white text-gray-800">
       {/* Contact Channels */}
       <div className="py-12 px-6 md:px-20">
-        <p className="text-center text-gray-600 mb-10">
+        <p className="text-center text-2xl font-bold text-gray-600 mb-10">
           CONTACT US VIA THE AVAILABLE CHANNELS
         </p>
 
@@ -59,17 +59,15 @@ ${form.message}`;
           <div className="bg-gray-900 text-white p-6 rounded-xl shadow-lg">
             <div className="text-yellow-400 text-4xl mb-4">✉</div>
             <h3 className="font-semibold text-lg mb-2">EMAIL US</h3>
-            <p>info@demos-saxon.com</p>
-            <p>komol@demos-saxon.com</p>
+            <p>admin@infragenixng.com</p>
           </div>
 
           {/* Call */}
           <div className="bg-gray-900 text-white p-6 rounded-xl shadow-lg">
             <div className="text-yellow-400 text-4xl mb-4">📞</div>
             <h3 className="font-semibold text-lg mb-2">CALL US</h3>
-            <p>+234 809 524 5525</p>
-            <p>+234 818 785 7411</p>
-            <p>+234 802 369 0277</p>
+            <p>+234 806 026 9768</p>
+            
           </div>
         </div>
       </div>
@@ -146,6 +144,6 @@ ${form.message}`;
           </button>
         </form>
       </div>
-    </div>
+    </section>
   );
 }

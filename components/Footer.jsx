@@ -24,19 +24,17 @@ const Footer = () => {
   };
 
   return (
-    <footer className="relative bg-white border border-[#1f888d] text-gray-200 text-center py-6 mt-12 w-full">
-      <div className="text-[#1f888d] text-xl">©2025 Asubiojo Oreoluwa | All Rights Reserved</div>
-      <div className="flex justify-center space-x-3 mt-4">
-        
-        <Link href="https://facebook.com/skyboundlegal?s=21" className="bg-gray-800 p-2 rounded-lg text-white hover:bg-gray-700">
-          <FaFacebookF />
-        </Link>
-        <Link href="https://wa.me//+2349167610059" className="bg-gray-800 p-2 rounded-lg text-white hover:bg-gray-700">
-          <FaWhatsapp />
-        </Link>
-        
-
-      </div>
+    <footer className="relative bg-[#1B3C53]  text-white text-center py-14 mt-12 w-full">
+      <div className="text-white text-xl">©2025 <a
+          href="https://github.com/Dideoluwa31"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-[#019a65] hover:text-[#017a50] px-2 font-medium transition-colors"
+        >
+          Asubiojo Oreoluwa
+        </a>
+ | All Rights Reserved</div>
+      
       {showScroll && (
         <button
           onClick={scrollToTop}
@@ -45,7 +43,7 @@ const Footer = () => {
           <FaArrowUp className="text-white" />
         </button>
       )}
-      <div className="text-[#1f888d] text-sm">Developed with ❤️ for Infragenix</div>
+      <div className="text-white  text-lg">Developed with ❤️ for Infragenix</div>
     </footer>
   );
 };

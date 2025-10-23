@@ -85,7 +85,7 @@ export default function LandingPage() {
   }, []);
 
   return (
-    <div className="relative w-full h-[90vh] overflow-hidden">
+    <div id="home"className="relative w-full h-[90vh] overflow-hidden">
       {/* Background slideshow */}
       <AnimatePresence>
         <motion.div

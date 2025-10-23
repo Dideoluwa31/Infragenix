@@ -4,30 +4,20 @@ import ServicesSection from "@/components/ServiceSection";
 import VisionMissionMandate from "@/components/VisionMissionMandate";
 import Contact from "@/components/contact";
 import Footer from "@/components/Footer";
+import Listofservices from "@/components/listofsevices";
 
 
 export default function Home() {
   return (
     
     <div>
-      <div>
-        <Navbar/>
-      </div>
-      <div>
-       <LandingPage/>
-      </div>
-      <div>
-        <ServicesSection/>
-      </div>
-      <div>
-        <VisionMissionMandate/>
-      </div>
-      <div>
-        <Contact/>
-      </div>
-      <div>
-        <Footer/>
-      </div>
+      <Navbar/>     
+      <LandingPage/>
+      <VisionMissionMandate/>
+      <ServicesSection/>
+      <Listofservices/>
+      <Contact/>
+      <Footer/>
     </div>
   );
 };
