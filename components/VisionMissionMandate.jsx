@@ -6,17 +6,17 @@ export default function VisionMissionMandate() {
     {
       icon: <Eye className="w-12 h-12 text-blue-600" />,
       title: "Our Vision",
-      text: "At Infragenix Nigeria Limited, our vision is to become Africa’s leading integrated solu ons provider, revolu onizing how technology, human capital, construc on, and infrastructure intersect to build a smarter, more efficient, and inclusive future",
+      text: "At Infragenix Nigeria Limited, our vision is to become Africa’s leading integrated solutions provider, revolutionizing how technology, human capital, construction, and infrastructure intersect to build a smarter, more efficient, and inclusive future",
     },
     {
       icon: <Binoculars className="w-12 h-12 text-blue-600" />,
       title: "Our Mission",
-      text: "At Infragenix Nigeria Limited, our mission is to deliver innova ve, high impact, and technology driven solutions that empower organiza ons, communi es, and individuals to thrive in an increasingly complex and interconnected world.",
+      text: "At Infragenix Nigeria Limited, our mission is to deliver innovative, high impact, and technology driven solutions that empower organizations, communities, and individuals to thrive in an increasingly complex and interconnected world.",
     },
     {
       icon: <Target className="w-12 h-12 text-blue-600" />,
       title: "Our Mandate",
-      text: "At Infragenix Nigeria Limited, we pride ourselves on being a mul sectoral solutions   provider, delivering top er  services tailored to meet the evolving needs of governments, businesses, and communites.",
+      text: "At Infragenix Nigeria Limited, we pride ourselves on being a mul sectoral solutions   provider, delivering toptier  services tailored to meet the evolving needs of governments, businesses, and communites.",
     },
   ];
 

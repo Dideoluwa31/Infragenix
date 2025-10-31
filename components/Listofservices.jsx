@@ -61,7 +61,7 @@ export default function Listofservices() {
             Our Services
           </h3>
           <p className="mt-3 text-black text-xl max-w-2xl mx-auto">
-            Kevlar Telecoms provides a full spectrum of ICT and telecommunications services designed to deliver reliable, sustainable, and innovative solutions.
+
           </p>
         </motion.div>
 
