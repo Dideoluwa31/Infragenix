@@ -40,7 +40,7 @@ export default function VisionMissionMandate() {
         
         <div className="mt-12 flex justify-center">
   <a
-    href="/companyprofile/INFRAGENIX COMPANY PROFILE.pdf" 
+    href="/companyprofile/INFRAGENIX COMPANY PROFILE .pdf" 
     download
     className="inline-flex items-center gap-2 px-6 py-3 rounded-xl font-semibold text-white
                bg-white/20 backdrop-blur-md
